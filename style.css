@@ -1,0 +1,133 @@
+@font-face {
+    font-family: 'roboto';
+    src: url(police/roboto/Roboto-Regular.ttf) format('truetype');
+    font-family: 'race';
+    src: url(police/race/Race\ Sport.ttf) format('truetype');
+}
+body {
+    font-family: 'roboto', sans-serif;
+    font-size: 16px;
+    color: #080202;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #080202;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 0;
+    margin: 15 0 15 0;
+}
+nav a {
+    text-decoration: none;
+    color: #FCE9F1;
+    transition: color 0.3s;
+}
+nav a:hover {
+    color: #73BBC9;
+}
+.section1 {
+    background-color: #F1D4E5;
+    padding: 50px 0;
+    text-align: center;
+}
+.sect1, .sect2 {
+    font-size: x-large;
+}
+.nom {
+    font-family: 'race', sans-serif;
+    font-size: xx-large;
+    color: #73BBC9;
+    transition: font-size 0.5s;
+}
+.nom:hover {
+    font-size: 40px;
+}
+.section2 {
+    background-color: #FCE9F1;
+    padding: 50px;
+}
+.section3 {
+    background-color: #73BBC9;
+    padding: 50px;
+}
+.projet {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.projet a {
+    margin: 10px
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    body {
+        font-size: 16px;
+    }
+    .sect1, .sect2 {
+        font-size: large;
+    }
+}
+@media screen and (max-width: 767px) {
+    body {
+        font-size: 14px;
+    }
+}
+@media screen and (min-width: 1200px) {
+    .section1 {
+        padding: 100px 0;
+    }
+    .section2, .section3 {
+        padding: 100px;
+    }
+}
+footer {
+    background-color: #080202;
+    color: #FCE9F1;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+}
+
+.contact-info, .social-media {
+    flex: 1;
+    padding: 10px;
+}
+
+.contact-info h3, .social-media h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.contact-info p {
+    margin: 0;
+}
+
+.social-media ul {
+    list-style: none;
+    padding: 0;
+}
+
+.social-media li {
+    margin-bottom: 5px;
+}
+
+.social-media a {
+    text-decoration: none;
+    color: #FCE9F1;
+    transition: color 0.3s;
+}
+
+.social-media a:hover {
+    color: #73BBC9;
+}
